@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#wrapper{
+    width: 950px;
+    margin: 0 auto;
+    
+}
+
+header{
+    background: linear-gradient(#23324E, #0E0F12);
+    width: 100%;
+    height: 65px;
+    background-color: red;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header_wrapper{
+    min-width: 950px;
+    /* border: 1px black solid; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logoAndDescription p{
+    margin-left: 8px;
+    color: rgb(212, 212, 212);
+    font-size: 12px;
+}
+
+#logo{
+    width: 210px; 
+    height: 55px;
+    background-image: url(./img/logo.png);
+}
+
+#registration{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 65px;
+    
+}
+
+#registration a {
+    padding: 0 5px; 
+    margin-left: 2px;
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+
+#logoAndDescription{
+    width: 200px;
+    height: 65px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+
+
+
+
+input[type=text]{
+    width: 300px;
+    height: 22px;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+
+input[type=submit]{
+    padding: 2px 10px;
+    background: linear-gradient(#D41903, #E44D09);
+    color: white;
+    border-radius: 5px;
+}
+
+
+nav{
+    height: 38px;
+    background-color: #1D273D;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+nav ul{
+    width: 950px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    
+    
+}
+
+nav ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 38px;
+    padding: 0 7.7px;
+    list-style-type: none;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    border-right: 0.5px rgb(109, 109, 109) solid;
+    background-image: url(./img/menu.png);
+}
+
+#relatedVideos{
+    width: 100%;
+    height: 115px;
+    background-color: red;
+    background-image: url(./img/redbg.png);
+}
