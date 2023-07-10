@@ -268,3 +268,47 @@ main{
     line-height: 13px;
 }
 
+.oneVideoRightSide{
+    width: 650px;
+    height: 110px;
+    background-color: #c4c0b6;
+    background: linear-gradient(#040609, #192032);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    color: white;
+}
+
+.oneVideoMain{
+    width: 150px;
+    height: 110px;
+    background-color: rgb(101, 101, 129);
+    margin-left: 8px;
+}
+
+.oneVideoMainDescription{
+    width: 500px;
+    height: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 14px;
+}
+
+
+
+.statistics{
+    display: flex;
+    flex-direction: row;
+}
+
+.statistics p{
+    margin: 2px 0;
+    padding-right: 30px;
+}
+
+
+
+.oneVideoMainDescription h1{
+    color:#fdb102;
+    font-size: 25px;
+}
