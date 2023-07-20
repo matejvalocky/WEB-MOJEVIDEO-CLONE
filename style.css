@@ -7,7 +7,11 @@
 
 
 
-
+body{
+    background-color: #23324E;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(2,0,36,1) 100%);
+}
 
 
 
@@ -15,8 +19,6 @@
     width: 950px;
     margin: 0 auto;
     border: 1px black solid;
-   
-
 }
 
 header{
@@ -28,7 +30,6 @@ header{
     flex-direction: row;
     justify-content: center;
     align-items: center;
-
 }
 
 
@@ -241,7 +242,7 @@ main{
     background-color: #d90101;
     padding: 3px 10px;
     color: white;
-    font-size: 15px;
+    font-size: 13px;
     border-top: 1px black solid;
 }
 
@@ -255,11 +256,24 @@ main{
 }
 
 #activeUsers{
-    padding: 30px;
+    padding: 20px;
+    margin-left: 15px;
 }
 
 #activeUsers ol li {
     line-height: 15px;
+    color: white;
+    font-size: 12px;
+}
+
+#activeUsers ol li:last-child{
+    list-style: none;
+    margin-left: -15px;
+}
+
+
+#allList{
+    color: #fdb102;
 }
 
 #bestLink{
@@ -277,6 +291,10 @@ main{
     font-weight: bold;
 }
 
+
+#survey{
+    color: white;
+}
 #interestedVideosContent{
     display: flex;
     flex-direction: column;
@@ -322,6 +340,7 @@ main{
     color: white;
     text-align: center;
     line-height: 13px;
+    padding: 0 5px; 
 }
 
 
@@ -336,7 +355,11 @@ main{
     justify-content: flex-start;
     color: white;
     margin-left: 8px;
-    margin-top: 5px;
+    margin-top: 8px;
+}
+
+.firstVideo{
+    margin-top: 0;
 }
 
 
@@ -400,3 +423,21 @@ main{
     font-size: 17px;
 }
 
+#numbers{
+    width: 100%;
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+}
+
+#numbers a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
