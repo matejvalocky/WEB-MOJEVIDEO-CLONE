@@ -9,6 +9,8 @@
 
 body{
     background-image: url(./img/background.png);
+    background-repeat: space;
+    
 }
 
 
@@ -21,10 +23,8 @@ body{
 }
 
 header{
-    background: linear-gradient(#23324E, #0E0F12);
     width: 100%;
-    height: 65px;
-    background-color: red;
+    height: 69px;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -105,7 +105,6 @@ input[type=submit]{
 nav{
     width: 100%;
     height: 38px;
-    background-color: #1D273D;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -137,6 +136,7 @@ nav ul li{
     font-weight: bold;
     border-right: 0.5px rgb(109, 109, 109) solid;
     background-image: url(./img/menu.png);
+    background-repeat: space;
 }
 
 nav ul li a:hover{
@@ -154,7 +154,7 @@ nav ul li a{
 #relatedVideos{
     width: 100%;
     height: 115px;
-    background-color: red;
+    
     background-image: url(./img/redbg.png);
     display: flex;
     flex-direction: row;
@@ -187,7 +187,6 @@ main{
 
 #rightSideMainContent{
     width: 650px;
-    height: 1800px;
     background-color: rgb(0, 0, 0);
 }
 
@@ -217,7 +216,7 @@ main{
 
 #BottomSideOfLeftContent{
     width: 100%;
-    height: 1630px;
+    height: 1435px;
     background-image: url(./img/nav-bg.png);
     background-size: contain;
 }
@@ -424,7 +423,7 @@ main{
 
 #numbers{
     width: 100%;
-    margin: 25px;
+    margin: 15px;
     display: flex;
     flex-direction: row;
 }
@@ -433,7 +432,7 @@ main{
     display: inline-block;
     width: 25px;
     height: 30px;
-    background-color: red;
+    
     margin: 5px;
     display: flex;
     flex-direction: row;
@@ -469,9 +468,10 @@ main{
 }
 
 #bottomNav{
-    width: 100%;
+    
+    width: 950px;
+    margin: 0 auto;
     height: 20px;
-    background-color: #d90101;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -491,4 +491,17 @@ main{
     color: white;
     font-size: 12px;
     line-height: 18px;
+}
+
+.information a {
+    background-image: url(./img/footertitle.png);
+    padding: 5px 73px;
+    background-repeat: space;
+}
+
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-image: url(./img/footerbg.png);
 }
