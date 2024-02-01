@@ -8,15 +8,14 @@
 
 
 body{
-    background-color: #23324E;
-    background: rgb(2,0,36);
-    background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 16%, rgba(2,0,36,1) 100%);
+    background-image: url(./img/background.png);
 }
 
 
 
 #wrapper{
     width: 950px;
+    
     margin: 0 auto;
     border: 1px black solid;
 }
